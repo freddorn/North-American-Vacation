@@ -20,12 +20,12 @@ var countries = {
     center: { lat: 62, lng: -110.0 },
     zoom: 4
   },
-  
+
   'mx': {
     center: { lat: 23.6, lng: -102.5 },
     zoom: 5
   },
-  
+
   'us': {
     center: { lat: 37.1, lng: -95.7 },
     zoom: 4
