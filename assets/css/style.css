@@ -1,3 +1,27 @@
+/*------------------------FONT STYLES--------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p,
+ol {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+/*---------------------MAP-------------------------------------*/
 
 /* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
@@ -108,4 +132,39 @@ table {
 
 .iw_table_icon {
   text-align: right;
+}
+
+/*-------------------------NAV BAR-------------------------------*/
+
+
+/*----Background color of header----*/
+.navbar {
+  background-color: #007699;
+  color: #ffffff;
+
+}
+
+/*-------------------------Footer--------------------------------*/
+.page-footer {
+  background-color: #b34708;
+  color: #ffffff
+}
+
+/*--------------------------BORDERS AND MARGINS---------------------*/
+
+/*--Push page content below the fixed position header---*/
+
+.pagetop-pushdown {
+  height: 50px;
+}
+
+/*--To prevent overflow---*/
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container .container-fluid {
+  width: 99%;
 }
