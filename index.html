@@ -12,24 +12,10 @@
 </head>
 
 <body>
-
-    <!--NAV BAR-->
-
-    <header class="navbar navbar-expand-lg fixed top">
-        <h3 class="navbar-brand">North American Vacation</h3>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <h5 class="nav-link">Plan Your Trip in North America</h5>
-            </li>
-        </ul>
-    </header>
-
-    <!--SELECTION-->
-
+    
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-3">
-                <h3>Selection</h3>
+            <div class="col">
                 <div class="hotel-search">
                     <div id="findhotels">
                         Find hotels in:
@@ -49,43 +35,50 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 
+    <div id="map"></div>
 
-    <!--Map Window-->
-
-    <div class="col-12 col-lg-9">
-        <h3>Map</h3>
+    <div id="listing">
+        <table id="resultsTable">
+            <tbody id="results"></tbody>
+        </table>
     </div>
 
-    <!--Footer-->
-
-
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 offset-md-1 col-md-4 offset-lg-3 col-lg-2">
-                    <h3 class="text-uppercase">
-                        About
-                    </h3>
-                    <p>
-                        Plan your vacation today, our service area includes the United States, Canada and Mexico.
-                    </p>
-                </div>
-                <div class="col-6 offset-md-2 col-md-4 offset-lg-2 col-lg-2">
-                    <h3 class="text-uppercase">
-                        Contact
-                    </h3>
-                    <p>
-                        If you need any assistance, call us at 555-867-5309 anytime 24/7 365 days a year.
-                    </p>
-                </div>
-            </div>
+    <div style="display: none">
+        <div id="info-content">
+            <table>
+                <tr id="iw-url-row" class="iw_table_row">
+                    <td id="iw-icon" class="iw_table_icon"></td>
+                    <td id="iw-url"></td>
+                </tr>
+                <tr id="iw-address-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Address:</td>
+                    <td id="iw-address"></td>
+                </tr>
+                <tr id="iw-phone-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Telephone:</td>
+                    <td id="iw-phone"></td>
+                </tr>
+                <tr id="iw-rating-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Rating:</td>
+                    <td id="iw-rating"></td>
+                </tr>
+                <tr id="iw-website-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Website:</td>
+                    <td id="iw-website"></td>
+                </tr>
+            </table>
         </div>
-    </footer>
+    </div>
+
+    
+
+   
+
+    
+   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
