@@ -20,134 +20,41 @@
     </ul>
 </header>
 
-<div class="pagetop-pushdown">
-
-</div>
-
 <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-12">
-
-                <div class="hotel-search">
-                    <div id="findhotels">
-                        <h5>Location</h5>
-                    </div>
-
-                    <div id="locationField">
-                        <input id="autocomplete" placeholder="Enter a city" type="text" />
-                    </div>
-
-                    <div id="controls">
-                        <select id="country">
-                    <option value="ca">Canada</option>
-                       <option value="mx">Mexico</option>
-                    <option value="us" selected>U.S.A.</option>
-    
-                </select>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
 
-    <div class="col-12 col-md-6 col-lg-12">
-        <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
-        <div id="controls">
-            <select id="category">
-                                <option value="" selected>Select One</option>
-                                <option id="accommodation" value="accommodation">Accommodation</option>
-                                <option id="bars" value="bars">Bars/Cafes/Restaurants</option>
-                                <option id="tourist" value="tourist">Tourist Attractions</option>
-                            </select>
-        </div>
-    </div>
-    </div>
-    <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="reset()"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
-    </div>
+                    <!--Footer-->
 
 
-    <hr class="hr2 d-lg-none">
+                    <footer class="page-footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 offset-md-1 col-md-4 offset-lg-3 col-lg-2 my-4">
+                                    <h3 class="text-uppercase">
+                                        About
+                                    </h3>
+                                    <p>
+                                        Plan your vacation today, our service area includes the United States, Canada and Mexico.
+                                    </p>
+                                </div>
+                                <div class="col-6 offset-md-2 col-md-4 offset-lg-2 col-lg-2 my-4">
+                                    <h3 class="text-uppercase">
+                                        Contact
+                                    </h3>
+                                    <p>
+                                        If you need any assistance, call us at 555-867-5309 anytime 24/7 365 days a year.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
 
-    <div id="map"></div>
-
-    <div id="listing">
-        <table id="resultsTable">
-            <tbody id="results"></tbody>
-        </table>
-    </div>
-
-
-
-
-
-    <div style="display: none">
-        <div id="info-content">
-            <table>
-                <tr id="iw-url-row" class="iw_table_row">
-                    <td id="iw-icon" class="iw_table_icon"></td>
-                    <td id="iw-url"></td>
-                </tr>
-                <tr id="iw-address-row" class="iw_table_row">
-                    <td class="iw_attribute_name">Address:</td>
-                    <td id="iw-address"></td>
-                </tr>
-                <tr id="iw-phone-row" class="iw_table_row">
-                    <td class="iw_attribute_name">Telephone:</td>
-                    <td id="iw-phone"></td>
-                </tr>
-                <tr id="iw-rating-row" class="iw_table_row">
-                    <td class="iw_attribute_name">Rating:</td>
-                    <td id="iw-rating"></td>
-                </tr>
-                <tr id="iw-website-row" class="iw_table_row">
-                    <td class="iw_attribute_name">Website:</td>
-                    <td id="iw-website"></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-    <!--Footer-->
-
-
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 offset-md-1 col-md-4 offset-lg-3 col-lg-2 my-4">
-                    <h3 class="text-uppercase">
-                        About
-                    </h3>
-                    <p>
-                        Plan your vacation today, our service area includes the United States, Canada and Mexico.
-                    </p>
-                </div>
-                <div class="col-6 offset-md-2 col-md-4 offset-lg-2 col-lg-2 my-4">
-                    <h3 class="text-uppercase">
-                        Contact
-                    </h3>
-                    <p>
-                        If you need any assistance, call us at 555-867-5309 anytime 24/7 365 days a year.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/maps.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVcYvqD4WqLqUzMzPNtwBS0WPext4Vq64&libraries=places&callback=initMap" async defer></script>
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <script type="text/javascript" src="assets/js/maps.js"></script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVcYvqD4WqLqUzMzPNtwBS0WPext4Vq64&libraries=places&callback=initMap" async defer></script>
 
 </body>
 
