@@ -40,13 +40,13 @@ h4 {
 /*-------------------------Footer--------------------------------*/
 .page-footer {
   background-color: #b34708;
-  color: #ffffff
-}ion-heading {
-    font-family: "Exo", "sans-serif";
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 25px;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
+  
 
 
 /*---------------------------------Media Queries---------------*/
