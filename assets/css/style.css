@@ -17,6 +17,11 @@ h4 {
     text-transform: uppercase;
 }
 
+/*--Push page content below the fixed position header---*/
+
+.pagetop-pushdown {
+  height: 80px;
+}
 
 
 /*------------------------Navbar--------------------------------*/
