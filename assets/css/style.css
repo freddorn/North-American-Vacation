@@ -107,3 +107,38 @@ h4 {
     font-family: "Roboto", "sans-serif";
     font-size: 15px;
 }
+
+/*--------------------------Results Table----------------------*/
+
+table {
+    font-size: 15px;
+}
+
+#listing {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+#resultsTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#rating {
+    font-size: 13px;
+    font-family: Arial Unicode MS;
+}
+
+.iw_table_row {
+    height: 18px;
+}
+
+.iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+}
+
+.iw_table_icon {
+    text-align: right;
+}
