@@ -20,15 +20,15 @@ h4 {
 /*--Push page content below the fixed position header---*/
 
 .pagetop-pushdown {
-  height: 80px;
+    height: 80px;
 }
 
 
 /*------------------------Navbar--------------------------------*/
 
 .navbar {
-    background-color:#007699;
-    color:#ffffff;
+    background-color: #007699;
+    color: #ffffff;
 }
 
 
@@ -38,11 +38,12 @@ h4 {
 
 
 /*-------------------------Footer--------------------------------*/
+
 .page-footer {
-  background-color: #b34708;
-  color: #ffffff;
+    background-color: #b34708;
+    color: #ffffff;
 }
-  
+
 
 
 /*---------------------------------Media Queries---------------*/
@@ -142,11 +143,5 @@ table {
 
 .iw_table_icon {
     text-align: right;
+
 }
-
-
-
-
-
-
-
