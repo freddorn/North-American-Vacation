@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
+body {
+  font-family: arial;
+  font-size: 17px;
+  color: #666;
+}
 
 
 /*--------------------Special Padding/margins/text---------------*/
@@ -17,11 +20,6 @@ h4 {
     text-transform: uppercase;
 }
 
-/*--Push page content below the fixed position header---*/
-
-.pagetop-pushdown {
-    height: 80px;
-}
 
 
 /*------------------------Navbar--------------------------------*/
@@ -44,8 +42,6 @@ h4 {
     color: #ffffff;
 }
 
-
-
 /*---------------------------------Media Queries---------------*/
 
 @media(min-width: 992px) {
@@ -53,6 +49,8 @@ h4 {
         float: none;
     }
 }
+
+
 
 
 /*---------------------------------Map/Filter------------------*/
@@ -143,5 +141,7 @@ table {
 
 .iw_table_icon {
     text-align: right;
-
 }
+
+
+    
