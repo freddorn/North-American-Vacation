@@ -62,7 +62,7 @@ h4 {
 /*---------------------------------Map/Filter------------------*/
 
 .map-section {
-    border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid #000000;
 }
 
 #map {
@@ -96,7 +96,7 @@ h4 {
 
 .filter-column {
     height: 592px;
-    border-right: 1px solid #d0d0d0;
+    border-right: 1px solid #000000;
 
 }
 
