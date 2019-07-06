@@ -5,6 +5,8 @@ var countryRestrict = { 'country': 'us' };
 var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
 var hostnameRegexp = new RegExp('^https?://.+?/');
 
+
+
 //List of properties for countries contain details about zoom, and their location on a map
 var countries = {
   'ca': {
@@ -23,18 +25,21 @@ var countries = {
 
 
 
-//Resets the map and input fields.
+//Resets the map and all the input fields.
 function reset() {
-    clearResults();
-    clearMarkers();
-    $('#category')[0].selectedIndex = 0;
-    $("#autocomplete").val("");
-    $('#results-heading').html("");
-    $('#hr').hide();
-    map.setZoom(countries.us.zoom);
-    map.setCenter(countries.us.center);
-    place = "";
+  clearResults();
+  clearMarkers();
+  $('#country')[0].selectedIndex = 0;
+  $("#autocomplete").val("");
+  $('#results-heading').innerHTML("");
+  map.setZoom(4);
+  map.setCenter(countries["us"].center);
+  map.componentRestrictions = { 'country': [] };
+  place = "";
+
 }
+
+
 
 function initMap() {
   $("#accomodationRadio").prop("checked", true);
@@ -56,6 +61,8 @@ function initMap() {
     content: document.getElementById('info-content')
   });
 
+
+
   // Create the autocomplete object and associate it with the UI input control.
   // Restrict the search to the default country, and to place type "cities".
   autocomplete = new google.maps.places.Autocomplete(
@@ -76,6 +83,8 @@ function initMap() {
   document.getElementById('reset-button').addEventListener("click", setAutocompleteCountry);
 
 }
+
+
 
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
@@ -116,6 +125,8 @@ function onPlaceChanged() {
 
 }
 
+
+
 // Search for hotels in the selected city, within the viewport of the map.
 function searchHotel() {
   var search = {
@@ -150,6 +161,8 @@ function searchHotel() {
   });
 }
 
+
+
 // Search for restaurants in the selected city, within the viewport of the map.
 function searchRestaurant() {
   var search = {
@@ -182,6 +195,7 @@ function searchRestaurant() {
     }
   });
 }
+
 
 // Search for attractions in the selected city, within the viewport of the map.
 function searchAttractions() {
@@ -226,6 +240,7 @@ function clearMarkers() {
   markers = [];
 }
 
+
 // Set the country restriction based on user input.
 // Also center and zoom the map on the given country.
 function setAutocompleteCountry() {
@@ -249,6 +264,7 @@ function dropMarker(i) {
     markers[i].setMap(map);
   };
 }
+
 
 //Adds found results to table below map in webpage
 function addResult(result, i) {
@@ -284,6 +300,8 @@ function clearResults() {
   }
 }
 
+
+
 // Get the place details for a hotel,restaurant,attraction. Show the information in an info window,
 // anchored on the marker for the hotel that the user selected.
 function showInfoWindow() {
@@ -298,6 +316,8 @@ function showInfoWindow() {
 
     });
 }
+
+
 
 // Load the place information into the HTML elements used by the info window.
 
@@ -338,6 +358,8 @@ function buildIWContent(place) {
   else {
     document.getElementById('iw-rating-row').style.display = 'none';
   }
+
+
 
   // The regexp isolates the first part of the URL (domain plus subdomain)
   // to give a short URL for displaying in the info window.
