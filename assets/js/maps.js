@@ -21,18 +21,19 @@ var countries = {
   }
 };
 
-//Resets the map and all the input fields.
-function reset() {
-  clearResults();
-  clearMarkers();
-  $('#country')[0].selectedIndex = 0;
-  $("#autocomplete").val("");
-  $('#results-heading').innerHTML("");
-  map.setZoom(4);
-  map.setCenter(countries["us"].center);
-  map.componentRestrictions = { 'country': [] };
-  place = "";
 
+
+//Resets the map and input fields.
+function reset() {
+    clearResults();
+    clearMarkers();
+    $('#category')[0].selectedIndex = 0;
+    $("#autocomplete").val("");
+    $('#results-heading').html("");
+    $('#hr').hide();
+    map.setZoom(countries.us.zoom);
+    map.setCenter(countries.us.center);
+    place = "";
 }
 
 function initMap() {
