@@ -10,7 +10,7 @@ View website on [Github Pages](https://freddorn.github.io/north-american-vacatio
 
 
 
-
+**Wireframes** can be viewed [here](https://github.com/freddorn/north-american-vacation/tree/master/assets/mockups)
 
 ## Features
 
