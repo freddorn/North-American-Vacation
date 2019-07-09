@@ -1,6 +1,6 @@
 # Relaxing Hot Springs
 
-View website on [Github Pages](https://freddorn.github.io/north-american-vacation/)
+View website on [Github Pages](https://freddorn.github.io/North-American-Vacation/)
 
 
 
@@ -39,7 +39,7 @@ View website on [Github Pages](https://freddorn.github.io/north-american-vacatio
 To deploy to Github pages from its Github repository, the following steps need to be completed:
 
 1. Log into Github.
-2. Select the repository **freddorn/north-american-vacation**
+2. Select the repository **freddorn/North-American-Vacation**
 3. Select *Settings* from the menu, near the top of the page.
 4. Scroll down to the **Github pages** section.
 5. Under **Source**, change the drop-down menu **None** to **Master Branch**
