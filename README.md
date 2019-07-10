@@ -1,6 +1,10 @@
-# Relaxing Hot Springs
+# North American Vacation
 
 View website on [Github Pages](https://freddorn.github.io/North-American-Vacation/)
+
+North American Vacation is a travel planning webite for the United States, Canada and Mexico. Travelers can view where to stay,
+the restaurants and bars nearby and tourist attractions in the area. The website will help the vacationer be aware of what is
+available in the location they want to visit, so they can research and evaluate all the different possibilities.
 
 
 
