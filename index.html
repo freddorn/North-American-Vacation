@@ -7,6 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_TGhwYicv1LfFn7U4L5whv");
+        })();
+    </script>
     <title>North American Vacation</title>
 </head>
 
@@ -106,9 +113,9 @@
             </div>
         </div>
     </section>
-    
+
     <!--Results Table-->
-    
+
     <section class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -151,7 +158,7 @@
             </div>
         </div>
     </section>
-    
+
     <!--Banner image of ocean-->
 
     <div class="container-fluid justify-content-center">
@@ -162,6 +169,35 @@
             </div>
         </div>
     </div>
+    
+    <!--Contact Form-->
+
+    <section>
+
+        <h3 class="contact">Contact Us</h3>
+
+        <div class="container-fluid">
+
+            <div class="center-form">
+
+                <form id="form" onsubmit="return sendMail(this);">
+
+                    <input required="required" type="text" name="name" class="form-control" id="fullname" placeholder="Name" />
+
+                    <input required="required" type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" size="30" />
+
+                    <textarea required="required" rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Your Message"></textarea>
+
+                    <button id="contact" type="submit" class="btn btn-primary center-block">Submit</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
 
 
     <!--Footer-->
@@ -187,6 +223,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVcYvqD4WqLqUzMzPNtwBS0WPext4Vq64&libraries=places&callback=initMap" async defer></script>
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 
