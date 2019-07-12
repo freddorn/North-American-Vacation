@@ -30,6 +30,31 @@ available in the location they want to visit, so they can research and evaluate 
 
 ## Technologies Used
 
+* HTML Language
+* CSS Language
+* [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - Used to simplify the building of a responsive website.
+    
+* [Google Fonts](https://fonts.google.com/)
+    - To style the website fonts.
+
+* [AutoPrefixer](https://autoprefixer.github.io/)
+    - To make sure the css code is valid for all browsers.
+
+* [jQuery](https://jquery.com/)
+    - To simplify DOM manipulation.
+    
+* [Javascript](https://www.javascript.com/)
+    - To add interactivity to the site.
+    - To produce the map.
+    - To have the search results list in a table, with markers on the map.
+    
+* [Google Maps and Places API](https://cloud.google.com/maps-platform/)
+    - Allows users to search using a map and have the different establishments shown on the map.
+    
+* [Email JS](https://www.emailjs.com/)
+    - Send email directly from your client-side Javascript code without server-side code.
+
 
 
 ## Testing
