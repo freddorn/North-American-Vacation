@@ -35,9 +35,6 @@ available in the location they want to visit, so they can research and evaluate 
 * [BootstrapCDN](https://www.bootstrapcdn.com/)
     - Used to simplify the building of a responsive website.
     
-* [Google Fonts](https://fonts.google.com/)
-    - To style the website fonts.
-
 * [AutoPrefixer](https://autoprefixer.github.io/)
     - To make sure the css code is valid for all browsers.
 
