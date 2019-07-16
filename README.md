@@ -7,9 +7,12 @@ the restaurants and bars nearby and tourist attractions in the area. The website
 available in the location they want to visit, so they can research and evaluate all the different possibilities.
 
 
-
- 
 ## UX
+
+The site is a single page where users can plan their trip in the United States, Canada or Mexico. It is presented in an
+easy to use format with two banner images of North American places. The site features an email contact form to contact
+us, if the traveler has any questions.
+
  
 
 
@@ -52,6 +55,8 @@ available in the location they want to visit, so they can research and evaluate 
 * [Email JS](https://www.emailjs.com/)
     - Send email directly from your client-side Javascript code without server-side code.
 
+* [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframe mockups for this project.
 
 
 ## Testing
