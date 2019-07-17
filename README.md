@@ -15,13 +15,11 @@ us, if the traveler has any questions.
 
  ### User Stories
 
-* As a 
-* As a 
-* As a 
-* As a 
-* As a 
-
-
+* As a user, I like that the website is easy to use and the information is presented well.
+* As a traveler, I want to see all the overnight accomodations in a given city or area.
+* As a diner, I would like to view all the restaurants and bars in the area and what type of food they serve.
+* As a tourist, I am interested in area's tourist attractions.
+* As a user, I would like to see the reviews of others, to get some insight of each place.
 
 **Wireframes** can be viewed [here](https://github.com/freddorn/north-american-vacation/tree/master/assets/mockups)
 
