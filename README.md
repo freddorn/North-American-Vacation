@@ -13,7 +13,13 @@ The site is a single page where users can plan their trip in the United States, 
 easy to use format with two banner images of North American places. The site features an email contact form to contact
 us, if the traveler has any questions.
 
- 
+ ### User Stories
+
+* As a 
+* As a 
+* As a 
+* As a 
+* As a 
 
 
 
