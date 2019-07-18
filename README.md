@@ -23,13 +23,17 @@ us, if the traveler has any questions.
 
 **Wireframes** can be viewed [here](https://github.com/freddorn/north-american-vacation/tree/master/assets/mockups)
 
-## Features
+## Features:
 
-
- 
 ### Existing Features
-
-
+* A dropdown menu to select the country you are visiting, that will focus the country selected on the map.
+* An autocomplete search bar for the city that is being entered. It allows for suggestions of cities, as city names appear based on letters that have already been typed in.
+* Radio buttons to choose between looking up Accomodations, Restaurants/Bars or Tourist Attractions.
+* A map window, where markers will drop on the map for each result. 
+* The reset button, which resets the map to the default USA view and also clears the results table.
+* A results table, listing up to 20 results with markers. if a marker is clicked in the results table, it will open an information window, at the corresponding marker on the map. 
+* Each infornation window shows the address, phone number, review rating and website url and link.
+* A contact form at the bottom of the page, if the user needs help or has questions.
 
 
 ### Features Left to Implement
