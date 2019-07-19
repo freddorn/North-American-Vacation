@@ -69,6 +69,19 @@ us, if the traveler has any questions.
 
 ## Testing
 
+### Testing Details
+
+#### Testing Tools
+
+* [AutoPrefixer](https://autoprefixer.github.io/)
+    - To make sure the css code is valid for all browsers.
+
+* [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
+    - To check the the validity of the CSS code. 
+    
+- [W3C Markup Validation]( https://validator.w3.org/)
+    - To check the the validity of the HTML code. 
+
 
 
 ## Deployment
