@@ -86,7 +86,7 @@ us, if the traveler has any questions.
     - Checks for javascript mistakes and errors.
     
 * [JS Hint](https://jshint.com/)
-    -Validates javascript and checks for errors.
+    - Validates javascript and checks for errors.
 
     
 ## Deployment
