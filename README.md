@@ -82,7 +82,7 @@ us, if the traveler has any questions.
 * [W3C Markup Validation]( https://validator.w3.org/)
     - To check the the validity of the HTML code. 
 
-* [Javascript Syntax Validator](https://esprima.org/demo/validate.html/)
+* [Javascript Syntax Validator](https://esprima.org/demo/validate.html)
     - Checks for javascript mistakes and errors.
     
 * [JS Hint](https://jshint.com/)
