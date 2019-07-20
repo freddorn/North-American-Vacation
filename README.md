@@ -79,11 +79,16 @@ us, if the traveler has any questions.
 * [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
     - To check the the validity of the CSS code. 
     
-- [W3C Markup Validation]( https://validator.w3.org/)
+* [W3C Markup Validation]( https://validator.w3.org/)
     - To check the the validity of the HTML code. 
 
+* [Javascript Syntax Validator](https://esprima.org/demo/validate.html/)
+    - Checks for javascript mistakes and errors.
+    
+* [JS Hint](https://jshint.com/)
+    -Validates javascript and checks for errors.
 
-
+    
 ## Deployment
 
 ### Deployment onto GitHub
