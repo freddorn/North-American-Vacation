@@ -71,7 +71,7 @@ us, if the traveler has any questions.
 
 ### Testing Details
 
-#### Testing Tools
+#### Testing Tools:
 
 * [AutoPrefixer](https://autoprefixer.github.io/)
     - To make sure the css code is valid for all browsers.
@@ -87,7 +87,18 @@ us, if the traveler has any questions.
     
 * [JS Hint](https://jshint.com/)
     - Validates javascript and checks for errors.
+    
+#### Testing the main page: 
 
+    1. Checked the functionality of the Google Maps and Google Places API's for proper operation.
+    2. Checked the functionality of the EmailJS API for ptoper operation making sure emails from the contact form came through with all the form fields complete.
+     
+    
+#### More Testing:
+
+    1. Used the Chrome Dev tools for most of the responsive testing.
+    2. Tested with a device of each of the 5 Bootstrap screen sizes. (Extra small to Extra Large)
+    3. Tested with the Chrome, Firefox and Safari browsers.
     
 ## Deployment
 
