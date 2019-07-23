@@ -90,15 +90,21 @@ us, if the traveler has any questions.
     
 #### Testing the main page: 
 
-    1. Checked the functionality of the Google Maps and Google Places API's for proper operation.
-    2. Checked the functionality of the EmailJS API for ptoper operation making sure emails from the contact form came through with all the form fields complete.
-    3. Made sure the page was responsive at different screen sizes, with the different elements of the page stacking up on each other, below the screen size of medium. 
-    
+1. Checked the functionality of the Google Maps and Google Places API's for proper operation.
+2. Checked the functionality of the EmailJS API for ptoper operation making sure emails from the contact form came through with all the form fields complete.
+3. Made sure the page was responsive at different screen sizes, with the different elements of the page stacking up on each other, below the screen size of medium. 
+4. When selecting a country to search, made sure that country was zoomed in on, on the map.
+5. In the City search field, made sure that only cities for the country chosen show up.
+6. For the Type of search radio buttons, made sure that either accomodations, restaurants/bars or tourist attractions show in the results table, depending on which
+   of the 3 categories that was chosen.
+7. Made sure that all of the results, were shown in the results table.
+8. Verified that the reset button, cleared the search results and reset the map back to the default United States.
+
 #### More Testing:
 
-    1. Used the Chrome Dev tools for most of the responsive testing.
-    2. Tested with a device of each of the 5 Bootstrap screen sizes. (Extra small to Extra Large)
-    3. Tested with the Chrome, Firefox and Safari browsers.
+1. Used the Chrome Dev tools for most of the responsive testing.
+2. Tested with a device of each of the 5 Bootstrap screen sizes. (Extra small to Extra Large)
+3. Tested with the Chrome, Firefox and Safari browsers.
     
 ## Deployment
 
