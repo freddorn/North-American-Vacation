@@ -149,6 +149,16 @@ To clone this project from GitHub:
 
 ### Media
 
+The photos used for this site were obtained by:
+
+- The city skyline photo is from [Pxhere](https://pxhere.com/en/)
+- The ocean beach photo was taken by myself.
+
 
 ### Acknowledgements
+
+- I received inspiration for this project from travelling the United States, Canada and Mexico.
+- The Slack community, where I have learned a great deal, reading through many posts.
+- My mentor Sebastian Immel.
+- W3SCHOOLS website for easy explanation of the code.
 
