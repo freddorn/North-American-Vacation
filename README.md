@@ -70,6 +70,7 @@ us, if the traveler has any questions.
 ## Testing
 
 ### Testing Details
+Tested the site manually, did not use Jasmine for automatic testing, as it was unnecessary due to the nature of the project.
 
 #### Testing Tools:
 
@@ -105,6 +106,11 @@ us, if the traveler has any questions.
 1. Used the Chrome Dev tools for most of the responsive testing.
 2. Tested with a device of each of the 5 Bootstrap screen sizes. (Extra small to Extra Large)
 3. Tested with the Chrome, Firefox and Safari browsers.
+
+#### Bugs Fixed
+
+1. Added an alert for when an email was sent, so the user could know if it was sent successfully or not.
+2. Made the contact form clear, after a message was sent, to show the user that it was sent.
     
 ## Deployment
 
