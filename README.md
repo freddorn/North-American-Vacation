@@ -92,7 +92,7 @@ us, if the traveler has any questions.
 
     1. Checked the functionality of the Google Maps and Google Places API's for proper operation.
     2. Checked the functionality of the EmailJS API for ptoper operation making sure emails from the contact form came through with all the form fields complete.
-     
+    3. Made sure the page was responsive at different screen sizes, with the different elements of the page stacking up on each other, below the screen size of medium. 
     
 #### More Testing:
 
