@@ -111,6 +111,9 @@ Tested the site manually, did not use Jasmine for automatic testing, as it was u
 
 1. Added an alert for when an email was sent, so the user could know if it was sent successfully or not.
 2. Made the contact form clear, after a message was sent, to show the user that it was sent.
+3. Search results for accomodations were missing in popular resort destinations. The city zoom level was
+   too zoomed in and didn't include the resort areas in many cases. Adjusted the city zoom level out.
+
     
 ## Deployment
 
