@@ -149,6 +149,10 @@ To clone this project from GitHub:
 
 ### Content
 
+1. A learning tool was **[Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)**'s Youtube Channel. 
+   The video on the Google Maps API, giving me a better insight, which can be found **[Here](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1355s)**
+2. In maps.js I largely used and adapted code found on the Google Maps Platform: (https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch)
+
 
 ### Media
 
