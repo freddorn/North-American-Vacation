@@ -70,7 +70,7 @@ us, if the traveler has any questions.
 ## Testing
 
 ### Testing Details
-Tested the site manually, did not use Jasmine for automatic testing, as it was unnecessary due to the nature of the project.
+Tested the site manually, and used the Jasmine framework to test the SendMail function.
 
 #### Testing Tools:
 
@@ -106,6 +106,7 @@ Tested the site manually, did not use Jasmine for automatic testing, as it was u
 1. Used the Chrome Dev tools for most of the responsive testing.
 2. Tested with a device of each of the 5 Bootstrap screen sizes. (Extra small to Extra Large)
 3. Tested with the Chrome, Firefox and Safari browsers.
+4. Completed a test of the SendMail function, using the Jasmine framework.
 
 #### Bugs Fixed
 
