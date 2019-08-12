@@ -169,4 +169,4 @@ The photos used for this site were obtained by:
 - The Slack community, where I have learned a great deal, reading through many posts.
 - My mentor Sebastian Immel.
 - W3SCHOOLS website for easy explanation of the code.
-
+- Stack Overflow, a good source of knowledge.

@@ -240,7 +240,6 @@ function clearMarkers() {
   markers = [];
 }
 
-
 // Set the country restriction based on user input.
 // Also center and zoom the map on the given country.
 function setAutocompleteCountry() {
@@ -358,7 +357,6 @@ function buildIWContent(place) {
   else {
     document.getElementById('iw-rating-row').style.display = 'none';
   }
-
 
 
   // The regexp isolates the first part of the URL (domain plus subdomain)
